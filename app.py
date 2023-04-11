@@ -2,7 +2,7 @@ import os
 
 class Permutator:
 
-    def __init__(self, nameFile, outFile, quiet, seperationSymbols=(".", "-", "_", " ")):
+    def __init__(self, nameFile, outFile, quiet, seperationSymbols=(".", "-", "_", " ", "")):
         self.nameFile = nameFile
         self.outFile = outFile
         self.quiet = quiet
